@@ -2,6 +2,7 @@
 sudo apt update
 wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.6-bin.zip
 sudo apt insatll -y zip
+sudo apt install openjdk-17-jdk
 unzip apache-maven-3.9.6-bin.zip
 sudo ln -s /home/ubuntu/apache-maven-3.9.6/bin/nvn /usr/local/sbin/nvn
 sudo chmod 777 /usr/local/sbin/nvn
